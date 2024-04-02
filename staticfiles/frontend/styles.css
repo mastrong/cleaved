@@ -1,3 +1,78 @@
 * {
-    outline: blue solid 1px;
+    /*outline: green solid 1px;*/
+}
+
+body {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#header {
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+.btn {
+    color: black;
+    font-weight: bold;
+    /*-webkit-text-stroke-width: 1px;*/
+    /*-webkit-text-stroke-color: black;*/
+
+}
+
+.category > .btn {
+    margin: 50px;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --google-font-color-bungeespice: colrv1;
+}
+
+.category {
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--bs-yellow);
+}
+
+#separator {
+    height: 20px;
+    width: 100%;
+}
+
+#reset {
+    color: red;
+}
+
+#right {
+    outline: white solid 1px;
+    border-radius: 15px;
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+#sides {
+    row-gap: 20px;
+}
+
+.list {
+    outline: white solid 1px;
+    border-radius: 15px;
+    background-color: #454545;
+    margin-bottom: 20px;
 }

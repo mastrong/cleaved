@@ -1,3 +1,30 @@
 * {
     outline: blue solid 1px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+.btn {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.category {
+    font-weight: bold;
+    font-size: 25px;
+    color: purple;
 }
