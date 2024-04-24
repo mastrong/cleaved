@@ -1,8 +1,27 @@
 * {
-    outline: blue solid 1px;
+    /*outline: green solid 1px;*/
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+body {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
+    background-size: auto 100vh;
+}
+
+
+#header {
+    align-items: center;
 }
 
 ul {
@@ -16,15 +35,87 @@ li {
 }
 
 .btn {
-    margin: 20px;
+    color: black;
+    font-weight: bold;
+    /*-webkit-text-stroke-width: 1px;*/
+    /*-webkit-text-stroke-color: black;*/
+
+}
+
+.category > .btn {
+    margin: 50px;
+    gap: 5px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --google-font-color-bungeespice: colrv1;
 }
 
 .category {
     font-weight: bold;
-    font-size: 25px;
-    color: purple;
+    font-size: 35px;
+    color: var(--bs-yellow);
+}
+
+.separator {
+    height: 20px;
+    width: 100%;
+}
+
+#reset {
+    color: red;
+}
+
+#right {
+    outline: white solid 1px;
+    border-radius: 15px;
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+#sides {
+    row-gap: 20px;
+}
+
+.list {
+    outline: white solid 1px;
+    border-radius: 15px;
+    background-color: #454545;
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 40px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --google-font-color-bungeespice: colrv1;
+}
+
+#timer_row {
+    justify-content: center;
+    align-items: center;
+}
+
+#timer_buttons {
+    display: grid;
+    gap: 10px;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding: 50px 10px 10px;
+}
+
+.btn-timer {
+    width: 75px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.appetizers, .entrees, .desserts {
+    visibility: hidden;
 }

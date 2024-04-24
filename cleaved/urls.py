@@ -19,7 +19,8 @@ from django.urls import path, include
 from rest_framework.urlpatterns import format_suffix_patterns
 
 urlpatterns = [
-    path('', include('frontend.urls')),
+    # path('', include('frontend.urls')),
+    path('', include('backend.urls')),
     path('api/', include('backend.urls')),
     path('admin/', admin.site.urls),
 ]
