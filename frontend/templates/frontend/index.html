@@ -75,6 +75,8 @@
         <h2>Screenshot these ingredients for your shopping trip!</h2>
         <br>
         <ul id="groceryList"></ul>
+        <br>
+        <h2>Feel free to make substitutions if your grocery store doesn't have a particular item.</h2>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -140,10 +142,9 @@
         </div>
       </div>
       <div id="timer_buttons">
-        <button class="btn btn-info btn-timer" onclick="startTimer()">Start</button>
-        <button class="btn btn-danger btn-timer" onclick="stopTimer()">Stop</button>
-        <button class="btn btn-warning btn-timer" onclick="resumeTimer()">Resume</button>
-        <button class="btn btn-success btn-timer" onclick="resetTimer()">Reset</button>
+        <button class="btn btn-warning btn-timer" onclick="startTimer()">Start</button>
+        <button class="btn btn-danger btn-timer" onclick="stopTimer()">Pause</button>
+        <button class="btn btn-info btn-timer" onclick="resetTimer()">Reset</button>
       </div>
       <div id="timer_row" class="row text-center">
         <p id="timer"></p>

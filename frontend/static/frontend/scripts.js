@@ -169,9 +169,6 @@ function stopTimer() {
     clearInterval(timerInterval);
 }
 
-function resumeTimer() {
-    startTimer(); // Resume is similar to starting the timer
-}
 
 function resetTimer() {
     clearInterval(timerInterval);
